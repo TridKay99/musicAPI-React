@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.numOneContainer {
+  height: 70vh;
+  width: 95%;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numOne {
+  border: 1px solid white;
+  width: 60%;
+  height: 80%;
+  box-shadow: 4px 4px hotpink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  border: 1px solid white;
+  background: hotpink;
+  width: 55%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numOneInfo{
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.category {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.topSongs {
+  padding: 10px;
+  height: 50%;
+  width: 60%;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background: black;
+  color: white;
+  box-shadow: 2.5px 2.5px hotpink;
+  margin: 10px;
+}
+
+.number {
+  /* width: 10%; */
+  display: flex;
+  border: 1px solid black;
+  padding: 15px 20px 15px 20px;
+}
+
+.artistName {
+  width: 45%;
+}
+
+.trackName {
+  width: 45%;
+}
+
+
+#numOneArtist {
+  border: 1px solid white;
+  background: hotpink;
+  height: 25%;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#numOneTrack {
+  border: 1px solid white;
+  background: hotpink;
+  height: 25%;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#numOneAlbum  {
+  border: 1px solid white;
+  background: hotpink;
+  height: 25%;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#numOneUrl {
+  background: hotpink;
+  border: 1px solid white;
+  height: 40%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  text-align: center
+}
+
+h2 {
+  padding: 10px;
+}
+
